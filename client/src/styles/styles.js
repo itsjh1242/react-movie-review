@@ -37,6 +37,7 @@ export const BoardingLoginLeftComponents = styled.div`
   padding-left: 50px;
 
   & > .login_title {
+    font-family: var(--font-bold);
     font-size: 36px;
   }
   & > .login_text_1 {
@@ -62,10 +63,11 @@ export const BoardingLoginLeftComponentsButton = styled.button`
   color: #ffffff;
   font-size: 14px;
 
-  &:focus {
+  &:hover {
     outline: none;
     transform: scale(1.05);
     transition: 0.5s;
+    cursor: pointer;
   }
 `;
 
@@ -115,8 +117,6 @@ export const BoardingLoginInputFrame = styled.input`
 
   &:focus {
     outline: none;
-    transform: scale(1.05);
-    transition: 0.5s;
   }
 `;
 

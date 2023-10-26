@@ -1,3 +1,4 @@
+/* eslint-disable */
 import "./App.css";
 import { createGlobalStyle } from "styled-components";
 import * as S from "./styles/styles";
@@ -8,7 +9,7 @@ import { useNavigate, Link } from "react-router-dom";
 const GlobalStyle = createGlobalStyle`
   body { 
     background: #000000;
-    font-family: 'Montserrat-Regular';
+    font-family: 'Pretendard-Regular';
   }
   p {
     margin: 0;

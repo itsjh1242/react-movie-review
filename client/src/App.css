@@ -1,36 +1,48 @@
 @font-face {
-  font-family: "Montserrat-Black";
+  font-family: "Pretendard-Black";
   src: url("./fonts/pretendard/Pretendard-Black.woff") format("woff");
 }
 @font-face {
-  font-family: "Montserrat-Bold";
+  font-family: "Pretendard-Bold";
   src: url("./fonts/pretendard/Pretendard-Bold.woff") format("woff");
 }
 @font-face {
-  font-family: "Montserrat-ExtraBold";
+  font-family: "Pretendard-ExtraBold";
   src: url("./fonts/pretendard/Pretendard-ExtraBold.woff") format("woff");
 }
 @font-face {
-  font-family: "Montserrat-ExtraLight";
+  font-family: "Pretendard-ExtraLight";
   src: url("./fonts/pretendard/Pretendard-ExtraLight.woff") format("woff");
 }
 @font-face {
-  font-family: "Montserrat-Light";
+  font-family: "Pretendard-Light";
   src: url("./fonts/pretendard/Pretendard-Light.woff") format("woff");
 }
 @font-face {
-  font-family: "Montserrat-Medium";
+  font-family: "Pretendard-Medium";
   src: url("./fonts/pretendard/Pretendard-Medium.woff") format("woff");
 }
 @font-face {
-  font-family: "Montserrat-Regular";
+  font-family: "Pretendard-Regular";
   src: url("./fonts/pretendard/Pretendard-Regular.woff") format("woff");
 }
 @font-face {
-  font-family: "Montserrat-SemiBold";
+  font-family: "Pretendard-SemiBold";
   src: url("./fonts/pretendard/Pretendard-SemiBold.woff") format("woff");
 }
 @font-face {
-  font-family: "Montserrat-Thin";
+  font-family: "Pretendard-Thin";
   src: url("./fonts/pretendard/Pretendard-Thin.woff") format("woff");
+}
+
+:root {
+  --font-black: "Pretendard-Black";
+  --font-bold: "Pretendard-Bold";
+  --font-extra-bold: "Pretendard-ExtraBold";
+  --font-extra-light: "Pretendard-ExtraLight";
+  --font-light: "Pretendard-Light";
+  --font-medium: "Pretendard-Medium";
+  --font-regular: "Pretendard-Regular";
+  --font-semi-bold: "Pretendard-SemiBold";
+  --font-thin: "Pretendard-Thin";
 }
