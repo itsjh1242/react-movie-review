@@ -45,7 +45,8 @@ export const BoardingLoginLeftComponents = styled.div`
   }
   & > .login_text_2 {
     margin-top: 10px;
-    font-size: 14px;
+    font-size: 12px;
+    font-weight: bold;
   }
 `;
 
@@ -94,6 +95,10 @@ export const BoardingLoginRightFrame = styled.div`
   min-height: 600px;
   height: 600px;
   background: #14213d;
+  background-image: url("images/ill_login.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 80%;
 `;
 
 export const BoardingLoginInputFrame = styled.input`
@@ -112,5 +117,32 @@ export const BoardingLoginInputFrame = styled.input`
     outline: none;
     transform: scale(1.05);
     transition: 0.5s;
+  }
+`;
+
+export const BoardingLoginAuth = styled.div`
+  display: flex;
+  width: 350px;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+  gap: 20px;
+`;
+
+export const BoardingLoginAuthButton = styled.button`
+  border: none;
+  background-color: transparent;
+  width: 40px;
+  height: 40px;
+
+  & > img {
+    width: 40px;
+    height: 40px;
+    &:hover {
+      cursor: pointer;
+      transform: scale(1.1);
+      transition: 0.5s;
+    }
   }
 `;
